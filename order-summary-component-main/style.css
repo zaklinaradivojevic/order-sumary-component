@@ -14,8 +14,10 @@ body{
    background-size: cover;
    background-position:center center ;
    background-color:hsl(225, 100%, 94%);
+   font-family: 'Red Hat Display', sans-serif;
 }
 .card{ 
+  top:10%;
   margin:0 auto;
   width:450px;
   height:670px;
@@ -24,11 +26,9 @@ body{
   border-radius:20px; 
   box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
   text-align: center;
-  
+  position:relative;
 }
-.card:hover{
-  opacity:0.7;  
-}
+
 .header{
     top:20%;  
     margin:0 auto;
@@ -41,12 +41,35 @@ background-repeat: no-repeat;
  border-top-left-radius:20px ;
 border-top-right-radius:20px ;
 }
+.header:hover{
+    opacity:0.7;  
+  }
 .content{
     margin:0 auto;
-    width:260px;
+    width:300px;
     margin-top: 37px;
 }
-
+.content h1{
+    font-weight:900;
+font-size:28px;
+color:hsl(223, 47%, 23%);
+    font-family: 'Red Hat Display', sans-serif;
+}
+.content p{
+    margin-top:10px;
+    font-size: 16px;
+    font-weight: 700;
+    line-height:30px;
+    color:hsl(224, 23%, 55%);
+    font-family: 'Red Hat Display', sans-serif;  
+}
+.box-plan{
+    margin:0 auto;
+    margin-top:10px;
+    width: 350px;
+    height:100px;
+    background-color:hsl(225, 100%, 98%);
+}
 .attribution {
     font-size: 11px;
     text-align: center;
