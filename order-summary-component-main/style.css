@@ -15,16 +15,16 @@ body{
    background-position:center center ;
    background-color:hsl(225, 100%, 94%);
 }
-.card{
-  top:20%;  
+.card{ 
   margin:0 auto;
   width:450px;
   height:670px;
   background-color:white; 
-  position:relative;
   z-index:-999;
   border-radius:20px; 
   box-shadow: 1px 1px 1px rgba(0,0,0,0.3);
+  text-align: center;
+  
 }
 .card:hover{
   opacity:0.7;  
@@ -33,7 +33,7 @@ body{
     top:20%;  
     margin:0 auto;
     width:450px;
-    height:270px;
+    height:220px;
 background-image: url("https://raw.githubusercontent.com/zaklinaradivojevic/order-summary-component/37b90f5f2efbcc861634b36e296f27db750ce275/order-summary-component-main/images/illustration-hero.svg");
 background-repeat: no-repeat;
    background-size: cover;
@@ -41,6 +41,12 @@ background-repeat: no-repeat;
  border-top-left-radius:20px ;
 border-top-right-radius:20px ;
 }
+.content{
+    margin:0 auto;
+    width:260px;
+    margin-top: 37px;
+}
+
 .attribution {
     font-size: 11px;
     text-align: center;
